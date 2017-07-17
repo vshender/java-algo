@@ -7,3 +7,7 @@ repositories {
 dependencies {
   testCompile 'junit:junit:4.9'
 }
+
+test {
+  testLogging.showStandardStreams = true
+}
